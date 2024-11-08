@@ -1,0 +1,52 @@
+1. Calcular a Média de um Vetor (Função Anônima usando Delegate)
+Enunciado: Escreva um programa que solicite ao usuário para inserir 10 números em um
+vetor e, em seguida, calcule a média desses valores. Utilize uma função anônima com
+delegate para realizar o cálculo da média.
+Requisitos:
+• Solicitar 10 números ao usuário e armazená-los em um vetor.
+• Criar uma função anônima usando delegate que calcule a média dos valores.
+• Exibir o resultado no console.
+
+
+2. Somar os Elementos de Cada Linha de uma Matriz 4x4 (Função Anônima usando
+Delegate)
+Enunciado: Dada uma matriz 4x4 preenchida com valores, some os elementos de cada
+linha e exiba o resultado. Use uma função anônima com delegate para somar os
+elementos de cada linha.
+Requisitos:
+• Criar uma matriz 4x4 preenchida com valores numéricos.
+• Criar uma função anônima usando delegate para somar os elementos de uma
+linha.
+• Processar e exibir a soma de cada linha no console.
+
+
+3. Verificar se um Vetor é um Palíndromo (Função Estática)
+Enunciado: Dado um vetor de inteiros, verifique se ele é um palíndromo (ou seja, se é
+igual quando lido de trás para frente). Implemente a verificação como uma função static.
+Requisitos:
+• Criar uma função static que receba um vetor de inteiros e verifique se ele é um
+palíndromo.
+• A função deve retornar true se for palíndromo e false caso contrário.
+• Exibir o resultado no console indicando se o vetor é um palíndromo.
+
+
+4. Soma das Diagonais de uma Matriz n x n (Função Pública)
+Enunciado: Dada uma matriz quadrada n x n, crie uma função pública que exiba a soma
+dos elementos da diagonal principal e da diagonal secundária.
+Requisitos:
+• Criar uma função pública que receba uma matriz quadrada e retorne a soma das
+diagonais.
+• A função deve somar os elementos da diagonal principal e secundária e retornar o
+resultado.
+• Exibir a soma das diagonais no console.
+
+
+5. Rotacionar uma Matriz n x n 90 Graus no Sentido Horário (Função Privada e Pública)
+Enunciado: Crie um programa para rotacionar uma matriz n x n 90 graus no sentido
+horário. Utilize uma função private para realizar a rotação e uma função public para exibir
+a matriz rotacionada.
+Requisitos:
+• Criar uma função private que receba uma matriz n x n e realize a rotação de 90
+graus.
+• Criar uma função public que exiba a matriz no console.
+• Chamar as funções adequadamente para processar e exibir a matriz rotacionada
