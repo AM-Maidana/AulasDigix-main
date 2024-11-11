@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Desafio3\\Desafio3.csproj",
-      "projectName": "Desafio3",
-      "projectPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Desafio3\\Desafio3.csproj",
+      "projectUniqueName": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_10\\Aula_10.csproj",
+      "projectName": "Aula_10",
+      "projectPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_10\\Aula_10.csproj",
       "packagesPath": "C:\\Users\\amandamaidana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Desafio3\\obj\\",
+      "outputPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amandamaidana\\AppData\\Roaming\\NuGet\\NuGet.Config"
