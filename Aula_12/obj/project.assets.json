@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_11\\Aula_11.csproj",
-      "projectName": "Aula_11",
-      "projectPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_11\\Aula_11.csproj",
+      "projectUniqueName": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_12\\Aula_12.csproj",
+      "projectName": "Aula_12",
+      "projectPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_12\\Aula_12.csproj",
       "packagesPath": "C:\\Users\\amandamaidana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_11\\obj\\",
+      "outputPath": "C:\\Users\\amandamaidana\\Documents\\AulasDigix-main\\Aula_12\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amandamaidana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -33,6 +33,11 @@
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",

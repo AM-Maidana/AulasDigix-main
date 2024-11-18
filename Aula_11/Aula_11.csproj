@@ -5,9 +5,23 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+
+  <!-- Desabilite a Geração de Informações do Assembly -->
+  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+  <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+  <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  <!-- Ignora erro de caminho Diretamente -->
+  <WarningsAsErrors></WarningsAsErrors>
+  <!-- Erro relacionado ao acesso -->
+  <NoWarn>CS2012</NoWarn>
+<!--Erro relacionado ao XML-->
+<GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+<!--Força Build mesmo com conflitos-->
+<ContinueOnError>true</ContinueOnError>
+
+<OutputPath>bin\Debug\</OutputPath>
 
   </PropertyGroup>
 
