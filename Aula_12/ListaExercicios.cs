@@ -29,27 +29,31 @@ namespace Aula12_3
         }
         // EXERCICIO 02 = MELHORANDO O BUBBLE
 
-        // EXERCICIO 03 = Implementação do Selection Sort
-        static void OrdenarSelection(int[] vetor, string nomes)
+        // EXERCICIO 03 = Implementação do Selection Sort -- usando a solução de ordenação com adição
+        static void OrdenarSelection(string[] array)
         {
-            int n = vetor.Length;
-            int menor, aux;
-            for (int i = 0; i < n - 1; i++)
+            for (int i = 0; i < array. Length; i++)
             {
-                menor = i;
-                for (int j = i + 1; j < vetor.Length; j++)
+                int menorIndice = i;
+                for (int j = 0; j < array.Length; j++)
                 {
-                    if (vetor[j] > vetor[menor])
+                    if (EhMenor(array[j], array[menorIndice]))
                     {
-                        menor = j;
+                        menorIndice = j;
                     }
                 }
-                aux = vetor[i];
-                vetor[i] = vetor[menor];
-                vetor[menor] = aux;
-            }
+            
+            string temp = array[i];
+            array[i] = array[menorIndice];
+            array[menorIndice] = temp;
         }
+        static bool Eh menor(string a, string b)
+        {
+         int tamanho = Math.Min(a.Length, b.Length)
 
+        }
+    }
+    
 
 
 
@@ -121,6 +125,10 @@ namespace Aula12_3
             Console.WriteLine("Vetor ordenado em ordem decrescente:");
             ImprimirInsert(vetor4);
             Console.WriteLine();
+            //EXERCICIO 5 ==============================================
+            
+
+
         }
     }
 }
