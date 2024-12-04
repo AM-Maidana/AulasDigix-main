@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafios", "Desafios\Desafi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_11", "Aula_11\Aula_11.csproj", "{AA853728-7EA7-401B-81CC-F1D6D62CAD20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_15", "Aula_15_OO\Aula_15.csproj", "{632AA632-739C-44E1-94DB-7053B7C8BDCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula_15_OO", "Aula_15_OO", "{28131FD8-E306-443A-A612-F3B8A70E8E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produto", "Aula_15_OO\Produto\Produto.csproj", "{77CC7795-85C3-48EA-B9E9-57229399460B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,11 +49,22 @@ Global
 		{AA853728-7EA7-401B-81CC-F1D6D62CAD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA853728-7EA7-401B-81CC-F1D6D62CAD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA853728-7EA7-401B-81CC-F1D6D62CAD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632AA632-739C-44E1-94DB-7053B7C8BDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632AA632-739C-44E1-94DB-7053B7C8BDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632AA632-739C-44E1-94DB-7053B7C8BDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632AA632-739C-44E1-94DB-7053B7C8BDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CC7795-85C3-48EA-B9E9-57229399460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CC7795-85C3-48EA-B9E9-57229399460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CC7795-85C3-48EA-B9E9-57229399460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CC7795-85C3-48EA-B9E9-57229399460B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94F06D4C-D994-409F-B5B1-9FE71CD5FE1B}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77CC7795-85C3-48EA-B9E9-57229399460B} = {28131FD8-E306-443A-A612-F3B8A70E8E6F}
 	EndGlobalSection
 EndGlobal
