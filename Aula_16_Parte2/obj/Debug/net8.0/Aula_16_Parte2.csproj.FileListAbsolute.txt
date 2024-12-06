@@ -1,0 +1,15 @@
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\bin\Debug\net8.0\Aula_16_Parte2.exe
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\bin\Debug\net8.0\Aula_16_Parte2.deps.json
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\bin\Debug\net8.0\Aula_16_Parte2.runtimeconfig.json
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\bin\Debug\net8.0\Aula_16_Parte2.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\bin\Debug\net8.0\Aula_16_Parte2.pdb
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.AssemblyInfoInputs.cache
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.AssemblyInfo.cs
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.csproj.CoreCompileInputs.cache
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.sourcelink.json
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\refint\Aula_16_Parte2.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.pdb
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\Aula_16_Parte2.genruntimeconfig.cache
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_16_Parte2\obj\Debug\net8.0\ref\Aula_16_Parte2.dll
