@@ -1,0 +1,23 @@
+------- Como abrir um novo "Project" na pasta AulasDigix-Main --------
+
+* Na pasta AulasDigix
+dotnet new console -n Aula_9
+
+dotnet sln Código.sln add Aula_9/Aula_9.csproj
+
+
+
+*** Diagramas
+- private
++ public
+
+
+ Modifier      Class   Package   Subclass   World
+──────────────────────────────────────────────────
+ public          ✔        ✔         ✔         ✔
+
+ protected       ✔        ✔         ✔         ✘
+
+ no modifier     ✔        ✔         ✘         ✘
+
+ private         ✔        ✘         ✘         ✘
