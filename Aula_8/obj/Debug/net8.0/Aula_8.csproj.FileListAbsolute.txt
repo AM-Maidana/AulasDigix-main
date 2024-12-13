@@ -41,3 +41,4 @@ C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_8\bin\Debug\net8.0\Aula_8.
 C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_8\bin\Debug\net8.0\Aula_8.pdb
 C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_8\obj\Debug\net8.0\Aula_8.genruntimeconfig.cache
 C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_8\obj\Debug\net8.0\ref\Aula_8.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Aula_8\obj\Debug\net8.0\Aula_8.sourcelink.json

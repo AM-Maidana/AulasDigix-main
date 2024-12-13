@@ -5,6 +5,9 @@ dotnet new console -n Aula_9
 
 dotnet sln Código.sln add Aula_9/Aula_9.csproj
 
+ouu ctrl + shift + p -- novo projeto
+
+
 
 
 *** Diagramas
