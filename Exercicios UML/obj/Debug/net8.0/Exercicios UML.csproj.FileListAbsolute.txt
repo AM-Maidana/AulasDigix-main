@@ -1,0 +1,15 @@
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\bin\Debug\net8.0\Exercicios UML.exe
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\bin\Debug\net8.0\Exercicios UML.deps.json
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\bin\Debug\net8.0\Exercicios UML.runtimeconfig.json
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\bin\Debug\net8.0\Exercicios UML.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\bin\Debug\net8.0\Exercicios UML.pdb
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.AssemblyInfoInputs.cache
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.AssemblyInfo.cs
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.csproj.CoreCompileInputs.cache
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.sourcelink.json
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\refint\Exercicios UML.dll
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.pdb
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\Exercicios UML.genruntimeconfig.cache
+C:\Users\amandamaidana\Documents\AulasDigix-main\Exercicios UML\obj\Debug\net8.0\ref\Exercicios UML.dll

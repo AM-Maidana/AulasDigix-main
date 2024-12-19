@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_19_Relacoes", "Aula_19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_20", "Aula_20\Aula_20.csproj", "{D0E5CF6B-41C9-450D-B18D-8A503886046A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios UML", "Exercicios UML\Exercicios UML.csproj", "{18B3CFBC-0BA8-43FE-9783-6E4443F39F72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D0E5CF6B-41C9-450D-B18D-8A503886046A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E5CF6B-41C9-450D-B18D-8A503886046A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E5CF6B-41C9-450D-B18D-8A503886046A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B3CFBC-0BA8-43FE-9783-6E4443F39F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B3CFBC-0BA8-43FE-9783-6E4443F39F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B3CFBC-0BA8-43FE-9783-6E4443F39F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B3CFBC-0BA8-43FE-9783-6E4443F39F72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
