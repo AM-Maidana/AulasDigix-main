@@ -30,6 +30,9 @@ namespace Uml
             catalogo.AdicionarLivro(livros1);
             catalogo.AdicionarLivro(livros2);
 
+            catalogo1.AdicionarLivro(livros3);
+            catalogo1.AdicionarLivro(livros4);
+
             // == biblioteca 1
             biblioteca.AdicionarFuncionario(funcionario);
             biblioteca.AdicionarFuncionario(funcionario2);
@@ -65,8 +68,11 @@ namespace Uml
 
             // catalogo:
             catalogo.ExibirLivros();
+            System.Console.WriteLine();
             catalogo1.ExibirLivros();
             System.Console.WriteLine();
+
+
 
             // == Leitor:            
             leitor.PegarEmprestado(livros);
