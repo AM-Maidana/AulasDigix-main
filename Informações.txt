@@ -24,3 +24,9 @@ ouu ctrl + shift + p -- novo projeto
  no modifier     ✔        ✔         ✘         ✘
 
  private         ✔        ✘         ✘         ✘
+
+
+
+Exemplos de classes:
+* Classe Abstrata: é um plano ou uma ideia, não pode ser usada diretamente.
+* Classe Concreta: é um brinquedo real, pronto para ser usado e brincar!

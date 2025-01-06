@@ -23,6 +23,8 @@ namespace Uml
             Livros livros3 = new Livros("Branca de neve", "disney", 1880, 10);
             Livros livros4 = new Livros("Joao e maria", "Alguem", 1970, 3);
 
+            RedeBibliotecas redeBibliotecas = new RedeBibliotecas();
+
 
             Catalogo catalogo = new Catalogo();
             Catalogo catalogo1 = new Catalogo();
@@ -53,6 +55,13 @@ namespace Uml
             biblioteca1.ExibirFuncionarios();
             System.Console.WriteLine();
 
+            // rede de bibliotecas:
+
+            redeBibliotecas.AdicionarBiblioteca(biblioteca);
+            redeBibliotecas.AdicionarBiblioteca(biblioteca1);
+            System.Console.WriteLine();
+            redeBibliotecas.ExibirBibliotecas();
+
             // == biblioteca x catalogo
             System.Console.WriteLine("======= Biblioteca gerenciando o catalogo: =====");
             biblioteca.AtualizarCatalogo();
@@ -72,13 +81,9 @@ namespace Uml
             catalogo1.ExibirLivros();
             System.Console.WriteLine();
 
-
-
             // == Leitor:            
             leitor.PegarEmprestado(livros);
             System.Console.WriteLine($"{leitor.GetNome()} pegou emprestado o livro: {livros.Titulo}");
-
-// == Livros
 
         }
     }
