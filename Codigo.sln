@@ -51,6 +51,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios-AnoNovo", "Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_21", "Aula_21\Aula_21.csproj", "{18EE5268-7BD0-489F-8187-A7BC178BBA6F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desafios", "Desafios", "{E5F32E9F-7657-4F94-99E0-EB843AA38899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio 4", "Desafios\Desafio 4\Desafio 4.csproj", "{BE657B58-0157-4AB2-B388-8822A7ABB539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio-4", "Desafio-4\Desafio-4.csproj", "{E40A762A-EBAA-4F2E-BF99-1B6CB2F6CC4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +135,14 @@ Global
 		{18EE5268-7BD0-489F-8187-A7BC178BBA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EE5268-7BD0-489F-8187-A7BC178BBA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18EE5268-7BD0-489F-8187-A7BC178BBA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE657B58-0157-4AB2-B388-8822A7ABB539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE657B58-0157-4AB2-B388-8822A7ABB539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE657B58-0157-4AB2-B388-8822A7ABB539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE657B58-0157-4AB2-B388-8822A7ABB539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40A762A-EBAA-4F2E-BF99-1B6CB2F6CC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40A762A-EBAA-4F2E-BF99-1B6CB2F6CC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40A762A-EBAA-4F2E-BF99-1B6CB2F6CC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40A762A-EBAA-4F2E-BF99-1B6CB2F6CC4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,5 +152,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{77CC7795-85C3-48EA-B9E9-57229399460B} = {28131FD8-E306-443A-A612-F3B8A70E8E6F}
+		{536C2866-1FD8-428F-B0AD-B655903212B7} = {E5F32E9F-7657-4F94-99E0-EB843AA38899}
+		{BE657B58-0157-4AB2-B388-8822A7ABB539} = {E5F32E9F-7657-4F94-99E0-EB843AA38899}
 	EndGlobalSection
 EndGlobal
