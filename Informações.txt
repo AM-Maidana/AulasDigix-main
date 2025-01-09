@@ -30,3 +30,5 @@ ouu ctrl + shift + p -- novo projeto
 Exemplos de classes:
 * Classe Abstrata: é um plano ou uma ideia, não pode ser usada diretamente.
 * Classe Concreta: é um brinquedo real, pronto para ser usado e brincar!
+
+https://www.edrawsoft.com/pt/article/class-diagram-relationships.html?srsltid=AfmBOoq_kVdCBmFdIUP7co3c6QOkqPfftnrh9Wir0HDB9bKKfM65ZgM- ----> Informações sobre as setinhas do UML
