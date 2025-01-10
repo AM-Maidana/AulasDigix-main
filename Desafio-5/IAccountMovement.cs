@@ -6,5 +6,6 @@ namespace Desafio5
         void Deposit();
         void Withdraw();
         void CreateTransaction();
+        void PrintTransaction();
     }
 }

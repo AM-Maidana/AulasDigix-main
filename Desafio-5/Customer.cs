@@ -5,16 +5,14 @@ namespace Desafio5
 {
     public class Customer : Address
     {
-       
+        protected string Name;
+        public Address Address;
+        protected DateTime Dob;
+        protected int CardNumber;
+        protected string Pin;
 
-        protected string Name { get; set; }
-        public Address Address { get; set; }
-        protected DateTime Dob { get; set;}
-        protected Int64 CardNumber { get; set; }
-        protected string Pin { get; set; } 
-
-       public Customer(string name, Address address, DateTime dob, Int64 cardNumber, string pin = "0000") 
-            : base(address.Street, address.Number, address.CEP, address.City)
+        public Customer(string name, Address address, DateTime dob, int cardNumber, string pin = "0000")
+             : base(address.Street, address.Number, address.CEP, address.City)
         {
             Name = name;
             Address = address;
@@ -22,19 +20,58 @@ namespace Desafio5
             CardNumber = cardNumber;
             Pin = pin;
         }
-
-        public void VerifyPassword(int pin)
+        public string GetName()
         {
-            if (pin != pin)
+            return Name;
+        }
+        public void SetName(string name)
+        {
+            Name = name;
+        }
+        public Address GetAddress()
+        {
+            return Address;
+        }
+        public void SetAddress(Address address)
+        {
+            Address = address;
+        }
+        public DateTime GetDob()
+        {
+            return Dob;
+        }
+        public void SetDob(DateTime dob)
+        {
+            Dob = dob;
+        }
+        public int GetCardNumber()
+        {
+            return CardNumber;
+        }
+        public void SetCardNumber(int cardNumber)
+        {
+            CardNumber = cardNumber;
+        }
+        public string GetPin()
+        {
+            return Pin;
+        }
+        public void SetPin(string pin)
+        {
+            Pin = pin;
+        }
+
+        public void VerifyPassword(string pin)
+        {
+            if (pin != Pin)
             {
                 throw new BankExcepction("Senha inválida");
-
-            } else
+            }
+            else
             {
-                System.Console.WriteLine("Senha corre
-                ta!" + $"\nBem Vindo {Name}");
+                Console.WriteLine("Senha correta! Bem Vindo " + Name);
             }
         }
-    
+
     }
 }

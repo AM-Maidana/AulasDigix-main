@@ -7,6 +7,8 @@ namespace Desafio5
         public string Name { get; set; }
         public Address Address { get; set; }
         public List<ATM> ATMs { get; set; }
+        public List<Account> Accounts { get; set; }
+
 
         public Bank(int code, string name, Address address) : base(address.Street, address.Number, address.CEP, address.City)
         {

@@ -6,7 +6,6 @@ namespace Desafio5
     {
         public Address Address { get; set; }
         public WithdrawValue WithdrawValue { get; set; }
-        public Bank ManagedBy { get; set; }
         
 
         public ATM(string street, int number, int cep, string city, Address address, WithdrawValue withdrawValue) : base(street, number, cep, city)
