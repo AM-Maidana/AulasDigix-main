@@ -1,34 +1,23 @@
 using System;
+
 namespace Desafio5
 {
     public class CurrentAccount : Account
     {
-        protected Customer Customer { get; set; }
-        protected int CCNumber;
-        protected double CCBalance;
-
-        public CurrentAccount(Customer customer, int accountNumber, double balance, int ccNumber, double ccBalance) : base(customer, accountNumber, balance)
+        public CurrentAccount(int number, double initialBalance) : base(number, initialBalance)
         {
-            Customer = customer;
-            CCNumber = ccNumber;
-            CCBalance = ccBalance;
         }
 
-        public void double Withdraw()
+        public override void Withdraw(double amount)
         {
-            System.Console.WriteLine("Digite o valor que deseja sacar: ");
-            int CCWithdraw = int.Parse(Console.ReadLine());
-            if (CCWithdraw > CCBalance)
+            if (Balance >= amount)
             {
-                throw new BankExcepction("Saldo insuficiente!");
+                base.Withdraw(amount);
             }
             else
             {
-                CCBalance -= CCWithdraw;
-                System.Console.WriteLine($"Saque realizado com sucesso! Saldo atual: {CCBalance}");
+                throw new BankException("Saldo insuficiente.");
             }
-            return CCBalance;
         }
-
     }
 }

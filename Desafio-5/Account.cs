@@ -1,99 +1,49 @@
-using Desafio5;
+using System;
+using System.Collections.Generic;
 
-public class Account : Customer, IAccountMovement
+namespace Desafio5
 {
-    public Customer customer;
-    protected int AccountNumber;
-    protected double Balance;
-    protected List<Transactions> Transaction { get; set; }
-
-    public Account(Customer customer, int accountNumber, double balance) : base(
-        customer.GetName(), customer.Address, customer.GetDob(), customer.GetCardNumber(), customer.GetPin())
+    public class Account
     {
-        AccountNumber = accountNumber;
-        Balance = balance;
-        Transaction = new List<Transactions>();
-    }
+        public int Number { get; }
+        public double Balance { get; private set; }
+        private List<Transaction> transactions = new List<Transaction>();
 
-    public int GetAccountNumber() => AccountNumber;
-    public void SetAccountNumber(int accountNumber) => AccountNumber = accountNumber;
-
-    public double GetBalance() => Balance;
-    public void SetBalance(double balance) => Balance = balance;
-
-    public void CreateTransaction()
-    {
-        Console.WriteLine("Para qual conta deseja transferir?");
-        int accountNumber = int.Parse(Console.ReadLine());
-        Console.WriteLine("Qual o valor da transferência?");
-        double value = double.Parse(Console.ReadLine());
-
-        if (value > Balance)
+        public Account(int number, double initialBalance)
         {
-            throw new BankExcepction("Saldo insuficiente!");
-        }
-        else
-        {
-            Balance -= value;
-            TransactionsType type = TransactionsType.TED;
-            Transaction.Add(new Transactions(AccountNumber, DateTime.Now, type, value));
+            Number = number;
+            Balance = initialBalance;
         }
 
-        Console.WriteLine("Transferência realizada com sucesso!");
-        Console.WriteLine("Saldo atual: " + Balance);
-    }
-
-    public void Deposit()
-    {
-        Console.WriteLine("Digite o valor que deseja depositar: ");
-        double valueDeposit = double.Parse(Console.ReadLine());
-
-        if (valueDeposit <= 0)
+        public virtual void Withdraw(double amount)
         {
-            throw new BankExcepction("Valor inválido! O valor depositado tem que ser maior que R$ 0,00");
-        }
-        else
-        {
-            Console.WriteLine($"Depósito no valor de R${valueDeposit} realizado com sucesso!");
-            Balance += valueDeposit;
-        }
-
-        Console.WriteLine("Saldo atual: " + Balance);
-    }
-
-    public void Withdraw()
-    {
-        Console.WriteLine("Digite o valor que deseja sacar: ");
-        double valueWithdraw = double.Parse(Console.ReadLine());
-
-        if (valueWithdraw > Balance)
-        {
-            throw new BankExcepction("Saldo insuficiente!");
-        }
-        else
-        {
-            Console.WriteLine($"Saque no valor de R${valueWithdraw} realizado com sucesso!");
-            Balance -= valueWithdraw;
-        }
-
-        Console.WriteLine("Saldo atual: " + Balance);
-    }
-
-    public void PrintTransaction()
-    {
-        Console.WriteLine("Seu extrato bancário:");
-        if (Transaction.Count == 0)
-        {
-            Console.WriteLine("Nenhuma transação realizada!");
-        }
-        else
-        {
-            foreach (var trans in Transaction)
+            if (amount <= Balance)
             {
-                Console.WriteLine($"ID: {trans.Id}");
-                Console.WriteLine($"Data: {trans.Date}");
-                Console.WriteLine($"Tipo: {trans.Transfer}");
-                Console.WriteLine($"Valor: {trans.Value}");
+                Balance -= amount;
+                RecordTransaction(TransactionsType.Withdraw, amount);
+            }
+            else
+            {
+                throw new BankExcepction("Saldo insuficiente.");
+            }
+        }
+
+        public void Deposit(double amount)
+        {
+            Balance += amount;
+            RecordTransaction(TransactionsType.Deposit, amount);
+        }
+
+        private void RecordTransaction(TransactionsType type, double amount)
+        {
+            transactions.Add(new Transaction(Guid.NewGuid(), DateTime.Now, type, amount, Balance));
+        }
+
+        public void PrintTransactions()
+        {
+            foreach (var transaction in transactions)
+            {
+                Console.WriteLine($"Data: {transaction.Date}, Tipo: {transaction.Type}, Valor: {transaction.Amount}, Saldo: {transaction.Balance}");
             }
         }
     }

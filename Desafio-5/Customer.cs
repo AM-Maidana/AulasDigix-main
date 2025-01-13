@@ -65,7 +65,7 @@ namespace Desafio5
         {
             if (pin != Pin)
             {
-                throw new BankExcepction("Senha inválida");
+                throw new BankException("Senha inválida");
             }
             else
             {

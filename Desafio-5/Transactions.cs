@@ -1,51 +1,22 @@
 using System;
+
 namespace Desafio5
 {
-    public class Transactions
+    public class Transaction
     {
-        public int Id;
-        public DateTime Date;
-        public TransactionsType Transfer;
-        public double Value;
+        public Guid Id { get; }
+        public DateTime Date { get; }
+        public TransactionsType Type { get; }
+        public double Amount { get; }
+        public double Balance { get; }
 
-        public Transactions(int id, DateTime date, TransactionsType type, double value)
+        public Transaction(Guid id, DateTime date, TransactionsType type, double amount, double balance)
         {
             Id = id;
             Date = date;
-            Transfer = type;
-            Value = value;
-        }
-        public int GetId()
-        {
-            return Id;
-        }
-        public void SetId(int id)
-        {
-            Id = id;
-        }
-        public DateTime GetDate()
-        {
-            return Date;
-        }
-        public void SetDate(DateTime date)
-        {
-            Date = date;
-        }
-        public TransactionsType GetTransfer()
-        {
-            return Transfer;
-        }
-        public void SetTransfer(TransactionsType type)
-        {
-            Transfer = type;
-        }
-        public double GetValue()
-        {
-            return Value;
-        }
-        public void SetValue(double value)
-        {
-            Value = value;
+            Type = type;
+            Amount = amount;
+            Balance = balance;
         }
     }
 }
